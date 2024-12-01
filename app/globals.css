@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #2e2e2e;
+}
+
+.App {
+  text-align: center;
+  height: 100vh;
+  color: white;
+  display: flex;
+  margin: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.logo {
+  margin: 10px;
+}
+
+.small-asset {
+  width: 200px;
+  height: 50px;
+}
+
+.red-text {
+  margin-top: 0px;
+  color: red;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.primaryColor {
+  color: #3488d8;
+}
+
+.secondaryColor {
+  color: #1e6ab1;
+}
+
+.mainForm {
+  margin: 20px auto;
+}
+
+.mainForm input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 20px;
+  border-radius: 100px;
+  border: 5px solid rgb(122, 122, 122);
+  outline: none;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.mainForm input:hover {
+  background-color: #d8d8d8;
+}
+
+.mainButton {
+  padding: 10px 20px;
+  border-radius: 100px;
+  font-size: 1rem;
+  border: 6px solid #25496b;
+  outline: none;
+  background-color: #3488d8;
+  color: white;
+  font-weight: 900;
+  margin-left: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+
+.mainButton:hover {
+  background-color: #145796;
+}
+
+.response {
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  max-width: 700px;
+  margin: auto;
+  text-align: left;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 20px;
+  overflow: auto;
+}
+
+.image-box {
+  margin: auto;
+}
+
+.chat-line {
+  margin: 10px 0;
+  white-space: pre-wrap;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+@media screen and (max-width: 600px) {
+  .mainForm input {
+    width: auto;
+    max-width: 400px;
+  }
+  .response {
+    height: 50vh;
+  }
+}
