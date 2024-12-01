@@ -8,7 +8,9 @@ Welcome to **3mouGPT**, the AI chatbot powered by OpenAI. 3mouGPT is not your av
 
 The goal of this project is to create a lighthearted and funny AI-powered chatbot for entertainment purposes. 3mouGPT is designed to act like a human, using a mix of humor and relatable Arabic uncle traits in his conversations.
 
-This project is built using **Next.js** and leverages the power of **OpenAI GPT-3.5/4** for generating witty and engaging responses.
+This project is built using **Next.js** and leverages the power of **OpenAI GPT-4o** for generating witty and engaging responses.
+
+Give it a try and chat with 3mouGPT at https://3mougpt.vercel.app/
 
 ## Getting Started
 
