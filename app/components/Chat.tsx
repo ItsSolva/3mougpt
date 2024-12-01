@@ -4,7 +4,7 @@ import { useChat } from "ai/react";
 const Chat = () => {
   const [loading, setLoading] = useState(false);
   const { messages, input, handleInputChange, handleSubmit } = useChat({
-    api: "api",
+    api: "/api",
   });
 
   const onSubmit = (event: React.FormEvent<HTMLFormElement>) => {
