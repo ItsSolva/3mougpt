@@ -36,10 +36,6 @@ yarn dev
 
 Then, open [http://localhost:3000](http://localhost:3000) in your browser to interact with 3mouGPT.
 
-### 4. Edit the Code
-
-You can start customizing 3mouGPT by modifying `app/page.tsx`. The app will auto-update as you make changes.
-
 ## Features
 
 - **Interactive Chat Interface**: Chat with 3mouGPT in a user-friendly interface.
